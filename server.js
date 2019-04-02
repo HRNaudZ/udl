@@ -13,6 +13,8 @@ app.use(express.static('public'));
 
 app.get('/udemy/*', function (req, res) {
     var url_parts = urlg.parse(req.url, true);
+    
+    console.log("une requete");
 
     if(url_parts.pathname=="/favicon.ico"){
         return;
