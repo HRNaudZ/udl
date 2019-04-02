@@ -1,0 +1,12 @@
+.hiddo{
+    display: none !important;
+}
+.text-m{
+    color: white;
+    font-size: 1.3em;
+    text-overflow: ellipsis;
+}
+.texte{
+    color: white;
+    font-size: 1.3em;
+}
